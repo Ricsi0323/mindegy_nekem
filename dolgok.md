@@ -7,6 +7,7 @@ Hogyan aktiváljuk a python enviormentet:
     
 2. Utána ezt : 
         **.\venv\Scripts\Activate.ps1**
+        
         -Ha erre hibát dob ki akkor a powershell buziskodik
         -a megoldásához edzt kell írni:  
         **Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process -Force**
