@@ -15,7 +15,7 @@
    ```
 
 3. Ha erre hibát dob ki akkor a powershell buziskodik
-   - a megoldásához edzt kell írni:  
+   - a megoldásához ezt kell írni:  
    ```powershell
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process -Force
    ```
