@@ -22,7 +22,7 @@
 
 4. Ezek után beírjuk a kettesben lévő parancsot és akkor ilyennek kell meg jelennie a terminálban:
    ```powershell
-   **(venv)** PS C:\Users\Agero\Documents\gitcucc\mindegy_nekem-1>
+   (venv) PS C:\Users\Agero\Documents\gitcucc\mindegy_nekem-1>
    ```
 
 5. Ha a hármas lépés sikerült akkor már csak a lib-eket kell letölteni
