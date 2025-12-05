@@ -13,6 +13,7 @@ Hogyan aktiváljuk a python enviormentet:
     **Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process -Force**
     
 3. Ezek után beírjuk a kettesben lévő parancsot és akkor ilyennek kell meg jelennie a terminálban:
+
     "**(venv)** PS C:\Users\Agero\Documents\gitcucc\mindegy_nekem-1>" 
     
 4. Ha a hármas lépés sikerült akkor már csak a lib-eket kell letölteni
