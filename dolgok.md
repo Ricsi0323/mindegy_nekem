@@ -19,4 +19,4 @@ Hogyan aktiváljuk a python enviormentet:
 4. Ha a hármas lépés sikerült akkor már csak a lib-eket kell letölteni
 
     -Lettöltés módja pedig: 
-        **pip install <lib_név>
+        **pip install <lib_név>**
