@@ -29,4 +29,31 @@
    - Letöltés módja pedig: 
       ```powershell
       pip install <lib_név>
-      ```
+      
+      
+      
+# Szükséges importok és telepítendő csomag az UI CALCULATORHOZ
+
+Ez a program a következő Python modulokat használja:
+
+# 🐍 Beépített:
+
+    import math
+    import cmath
+    import threading
+    import time
+    import sys
+
+## 📦 Telepítendő külső csomag:
+
+    pip install PySide6 pyserial
+
+### Magyarázat
+
+-   **PySide6**  -- A grafikus felhasználói felület (UI) működéséhez.
+-   **pyserial** -- A soros port kezeléséhez (COM port olvasása
+    gombnyomásokhoz).
+
+## 📁 Rendszerkövetelmények
+
+-   Python **3.9 vagy újabb**
