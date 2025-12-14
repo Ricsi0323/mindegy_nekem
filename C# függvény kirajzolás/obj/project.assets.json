@@ -1,0 +1,131 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "MathParser.org-mXparser/6.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MathParser.org-mXparser.dll": {
+            "related": ".deps.json"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MathParser.org-mXparser.dll": {
+            "related": ".deps.json"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MathParser.org-mXparser/6.1.0": {
+      "sha512": "Q1TBiJ47mPLsNK2/ArHvsplaRpWR7tP/ICbVKscZ8GsGrnenI4jwuQmMQysg1YWgAxIBJQtRZnbdXsCFl9fyPA==",
+      "type": "package",
+      "path": "mathparser.org-mxparser/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.txt",
+        "images/icon.png",
+        "lib/net35/MathParser.org-mXparser.dll",
+        "lib/net462/MathParser.org-mXparser.dll",
+        "lib/net472/MathParser.org-mXparser.dll",
+        "lib/net481/MathParser.org-mXparser.dll",
+        "lib/net6.0/MathParser.org-mXparser.deps.json",
+        "lib/net6.0/MathParser.org-mXparser.dll",
+        "lib/net8.0/MathParser.org-mXparser.deps.json",
+        "lib/net8.0/MathParser.org-mXparser.dll",
+        "lib/netcoreapp3.1/MathParser.org-mXparser.deps.json",
+        "lib/netcoreapp3.1/MathParser.org-mXparser.dll",
+        "lib/netstandard2.1/MathParser.org-mXparser.deps.json",
+        "lib/netstandard2.1/MathParser.org-mXparser.dll",
+        "mathparser.org-mxparser.6.1.0.nupkg.sha512",
+        "mathparser.org-mxparser.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "MathParser.org-mXparser >= 6.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Pc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\workspace\\!CUCC (100%veszely)\\C# függvény kirajzolás\\CSharpFunctionPlotter.csproj",
+      "projectName": "CSharpFunctionPlotter",
+      "projectPath": "D:\\workspace\\!CUCC (100%veszely)\\C# függvény kirajzolás\\CSharpFunctionPlotter.csproj",
+      "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
+      "outputPath": "D:\\workspace\\!CUCC (100%veszely)\\C# függvény kirajzolás\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "MathParser.org-mXparser": {
+            "target": "Package",
+            "version": "[6.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
